@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collegeadmisssions.gndu.ac.in/studentArea/GNDUEXAMRESULTDISPLAY.aspx</title>
+    <link rel="icon" type="image/x-icon" href="Screenshot 2023-10-11 1802300.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,#data,#FIRST-1,#FIRST-2,#FIRST-3,#SECOND-1,#SECOND-2,#SECOND-3,tr,#theory,#Practical,th,#internal,#marks,#min_marks,#maximum_marks,#blue,#sub,#obtn{
+            /* display: table-cell; */
+            /* border:1px  #333333;; */
+            border-collapse: collapse;
+            /* border-color: #333333;
+            border-style:ridge; */
+            border: 1px ridge #7e7e7e;
+            padding: 4px;
+            /* border-spacing: 0px; */
+            text-align: center;
+            font-size: 11pt;
+            vertical-align: inherit;
+            color: #333333;
+            width: 800px;
+            background-color: #F7F6F3;
+        }
+        #data,#SECOND-1,#SECOND-2,#SECOND-3,#FIRST-1,#FIRST-2,#FIRST-3{
+            display: table-cell;
+            vertical-align: inherit;
+        }
+        table{
+            border-spacing: 2px;
+            text-indent: initial;
+            text-align: center;
+        }
+         th,#theoryy,#Practicall,#internall,#markss,#min_markss,#maximum_markss,#obtnn,#subb{
+            background-color:#5D7B9D;
+            font-weight: bold;
+            color: white;
+            padding: 4px;
+            /* text-align: -internal-center; */
+         }
+         table{
+            width: 50%;
+            margin-top: 150px;
+            margin:50px;
+         } 
+         /* table{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+         } */
+         table{
+            margin-left: auto;
+            margin-right: auto;
+         }
+         body{
+            display: table-cell;
+            text-align: center;
+         }
+         #FIRST-1{
+            color: #284775;
+         }
+         #FIRST-2{
+            color: #284775;
+         }
+         #FIRST-3{
+            color:#284775;
+         }
+         #SECOND-1{
+            color: #284775;
+         }
+         #SECOND-2{
+            color: #284775;
+         }
+         #SECOND-3{
+            color: #284775;
+         }
+         #logo{
+           height: 100px;
+           margin-top: 15px;
+         }
+         h4{
+            display: block;
+            margin-block-start: 1.33em;
+            margin-block-end: 1.33em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: center;
+            text-indent: initial;
+            width: 500px;
+            margin: 21px;
+            /* justify-content: center; */
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 16px;
+         }
+         #h4{
+            text-decoration: underline;
+            font-weight: bold;
+         }
+         a{
+            color: blue;
+         }
+         #Roll_no{
+            width: 400px;
+            text-align: left;
+            background-color: white;
+            color: #333333;
+            border: none;
+            font-size: 16px;
+         }
+         #font-weight{
+            font-weight: normal;
+            font-size: 19px;
+            text-align: left;
+            margin-left: 530px;
+            color: #333333;
+         }
+         #diff{
+            font-weight: normal;
+            font-size: 19px;
+            text-align: left;
+            margin-left: 1280px;
+            color: #333333;
+            justify-content: right;
+         }
+         #new{
+            text-align: left;
+            width: 400px;
+            font-size: 19px;
+            display: table-cell;
+            vertical-align: inherit;
+            /* border-collapse: collapse; */
+            border: none;
+            padding: 10px;
+         }
+         #table,tr,td{
+            border: none;
+         }
+         /* #theoryy,th,#Practicall,#internall,#markss,#min_markss,#maximum_markss,#blue,#theory,#Practical,#internal,#marks,#min_marks,#maximum_marks{
+            width: 100px;
+            padding: 10px;
+         } */
+         #blue,#intro,#comm,#prac{
+            color:#284775;
+         }
+         /* #theory,th,#Practical,#internal,#marks,#min_marks,#maximum_marks{
+            width: 100px;
+            padding: 10px;
+         } */
+         #NOTE{
+            text-decoration: underline;
+            font-weight: bold;
+            text-align: left;
+        }
+        #NOTEE{
+            font-weight: bold;
+            text-align: left;
+        }
+        #NOTE,#NOTEE{
+            margin-left: 530px;
+        }
+        #last_part{
+            text-align: left;
+            margin-left: 530px;
+        }
+        @media only screen and (max-width: 400px) and (min-width: 300px){
+            p{
+                /* width: 50%; */
+                /* text-align: left; */
+                /* margin-right: 200px; */
+                font-size: 15px;
+                /* margin-right: ; */
+            }
+            #NOTE,#NOTEE,#last_part{
+                text-align: left;
+                margin-left: 53px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="clglogo.png" width="750px"  id="logo">
+      <h4>Detail Marks of the Examination<br> Bachelor of Computer Applications, Semester - I<br>held in December - 2022</h4>
+      <a href="https://collegeadmissions.gndu.ac.in/loginNew.aspx"><h4 id="h4">Click here to apply for Re-eveluation</h4></a>      
+      <!-- <h4 id="font-weight">Roll No. <b> 107222321</b></h4>
+      <h4 id="font-weight">Name : <b> Keshav</b></h4>
+      <h4 id="font-weight">Father's Name :<b> Vishal</b></h4>
+      <h4 id="font-weight">Mother's Name :<b> Rimpy</b></h4>
+        -----------
+        --------
+      <h4 id="diff">Registration No. <b>2022.GP/A.100</b></h4>
+      <h4 id="diff">Result :<b> R(III) Drug Abuse - Qualified</b></h4>
+      <h4 id="diff">Result Date :<b> 21-7-2023</b></h4>
+      <h4 id="diff">Notification No :<b> 1</b></h4>    -->
+      <table id="table">
+        <tbody>
+            <tr>
+                <td id="new">Roll No. <b> 107222320</b></td>
+                <!-- <td id="new"></td> -->
+                <td id="new">Registration No. <b>2022.GP/A.99</td>
+            </tr>
+            <tr>
+                 <td id="new">Name : <b> ARMAANDEEP SINGH</td>
+                 <td id="new">Result :<b> R(I)</b></td>
+            </tr>
+            <tr>
+                <td id="new">Father's Name :<b> JAGTAR SINGH</b></td>
+                <td id="new">Result Date :<b> 13-3-2023</b></td>
+            </tr>
+            <tr>
+                <td id="new">Mother's Name :<b> HARMANDEEP KAUR</b></td>
+                <td id="new">Notification No :<b> 1</b></td>
+            </tr>
+        </tbody>
+      </table>
+    <table>
+        <thead>
+            <tr>
+               <th id="subb">Subject Name</th>
+               <th id="obtnn">Marks Obtn.<br>Detail (Theory<br>Papers)</th>
+               <th id="theoryy">Theory</th> 
+               <th id="Practicall">Practical</th>
+               <th id="internall">Internal</th>
+               <th id="markss">Marks<br>Obtained</th>
+               <th id="min_markss">Min.<br>Marks</th>
+               <th id="maximum_markss">Maximum<br>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="sub">I:INTRODUCTION TO<br>PROGRAMMINNG-C</td>
+                <td id="obtn"></td>
+                <td id="theory">26</td>
+                <td id="Practical"></td>
+                <td id="internal"></td>
+                <td id="marks">26</td>
+                <td id="min_marks">26</td>
+                <td id="maximum_marks">75</td>
+            </tr>
+            <tr>
+              <td id="intro">II:INTRODUCTION TO COMPUTERS<br>AND INFORMATION TECHNOLOGY</td>
+              <td id="obtn"></td>
+              <td id="blue">30</td>
+              <td id="Practical"></td>
+              <td id="internal"></td>
+              <td id="blue">30</td>
+              <td id="blue">26</td>
+              <td id="blue">75</td>
+            </tr>
+            <tr>
+                <td id="sub">III:APPLIED & DISCRETE<br>MATHEMATICS</td>
+                <td id="obtn"></td>
+                <td id="theory">0</td>
+                <td id="Practical"></td>
+                <td id="internal"></td>
+                <td id="marks">-</td>
+                <td id="min_marks">26</td>
+                <td id="maximum_marks">75</td>
+            </tr>
+            <tr>
+                <td id="comm">V:COMMUNICATION SKILLS IN<br>ENGLISH-I</td>
+                <td id="obtn"></td>
+                <td id="blue">23</td>
+                <td id="Practical"></td>
+                <td id="internal"></td>
+                <td id="blue">23</td>
+                <td id="blue">18</td>
+                <td id="blue">50</td>
+            </tr>
+            <tr>
+                <td id="sub">VI(P):PUNJABI(COMPULSARY)</td>
+                <td id="obtn"></td>
+                <td id="theory">32</td>
+                <td id="Practical"></td>
+                <td id="internal"></td>
+                <td id="marks">32</td>
+                <td id="min_marks">18</td>
+                <td id="maximum_marks">50</td>
+            </tr>
+            <tr>
+                <td id="prac">IV:PRACTICAL-(MS OFFICE 2010<br>AND BASIC C PROGRAMMING)</td>
+                <td id="obtn"></td>
+                <td id="theory"></td>
+                <td id="blue">68</td>
+                <td id="internal"></td>
+                <td id="blue">68</td>
+                <td id="blue">26</td>
+                <td id="blue">75</td>
+            </tr>
+            <!-- <tr>
+                <td id="sub">Total Marks</td>
+                <td id="obtn"></td>
+                <td id="theory"></td>
+                <td id="Practical"></td>
+                <td id="internal"></td>
+                <td id="marks">203</td>
+                <td id="min_marks"></td>
+                <td id="maximum_marks">400</td>
+            </tr>    -->
+        </tbody>
+    </table>
+    <p id="NOTE">NOTE:</p>
+    <p id="NOTEE">Drug Abuse/EVS are Qualifying Subject and will not be added to total marks</p>
+    <p id="last_part">The result of the candidate has been declared on the basis of the performance of Even and Odd.<br>
+        * Denotes the subject marks including grace marks<br>
+        The results published here are only for immediate information to the examinees/ public. Though every care has been taken<br> in publishing the result, however the GNDU will not be responsible for any inadvertent error/ omission that may creep in<br> the results that are being published.<br>
+        This cannot be treated as original mark sheet. Original Mark-sheet will be issued by the GNDU separately. Candidates are<br> advised to rely on the mark-sheet issued by the GNDU for accurate information.
+    </p>
+    <!-- --------------------------- -->
+</body>
+</html>

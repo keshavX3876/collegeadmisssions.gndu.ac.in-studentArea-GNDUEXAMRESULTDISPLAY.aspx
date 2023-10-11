@@ -1,0 +1,173 @@
+table,#data,#FIRST-1,#FIRST-2,#FIRST-3,#SECOND-1,#SECOND-2,#SECOND-3,tr,#theory,#Practical,th,#internal,#marks,#min_marks,#maximum_marks,#blue,#sub,#obtn{
+    /* display: table-cell; */
+    /* border:1px  #333333;; */
+    border-collapse: collapse;
+    /* border-color: #333333;
+    border-style:ridge; */
+    border: 1px ridge #7e7e7e;
+    padding: 4px;
+    /* border-spacing: 0px; */
+    text-align: center;
+    font-size: 11pt;
+    vertical-align: inherit;
+    color: #333333;
+    width: 800px;
+    background-color: #F7F6F3;
+}
+#data,#SECOND-1,#SECOND-2,#SECOND-3,#FIRST-1,#FIRST-2,#FIRST-3{
+    display: table-cell;
+    vertical-align: inherit;
+}
+table{
+    border-spacing: 2px;
+    text-indent: initial;
+    text-align: center;
+}
+ th,#theoryy,#Practicall,#internall,#markss,#min_markss,#maximum_markss,#obtnn,#subb{
+    background-color:#5D7B9D;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    /* text-align: -internal-center; */
+ }
+ table{
+    width: 50%;
+    margin-top: 150px;
+    margin:50px;
+ } 
+ /* table{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+ } */
+ table{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ body{
+    display: table-cell;
+    text-align: center;
+ }
+ #FIRST-1{
+    color: #284775;
+ }
+ #FIRST-2{
+    color: #284775;
+ }
+ #FIRST-3{
+    color:#284775;
+ }
+ #SECOND-1{
+    color: #284775;
+ }
+ #SECOND-2{
+    color: #284775;
+ }
+ #SECOND-3{
+    color: #284775;
+ }
+ #logo{
+   height: 100px;
+   margin-top: 15px;
+ }
+ h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    text-indent: initial;
+    width: 500px;
+    margin: 21px;
+    /* justify-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+ }
+ #h4{
+    text-decoration: underline;
+    font-weight: bold;
+ }
+ a{
+    color: blue;
+ }
+ #Roll_no{
+    width: 400px;
+    text-align: left;
+    background-color: white;
+    color: #333333;
+    border: none;
+    font-size: 16px;
+ }
+ #font-weight{
+    font-weight: normal;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 530px;
+    color: #333333;
+ }
+ #diff{
+    font-weight: normal;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 1280px;
+    color: #333333;
+    justify-content: right;
+ }
+ #new{
+    text-align: left;
+    width: 400px;
+    font-size: 19px;
+    display: table-cell;
+    vertical-align: inherit;
+    /* border-collapse: collapse; */
+    border: none;
+    padding: 10px;
+ }
+ #table,tr,td{
+    border: none;
+ }
+ /* #theoryy,th,#Practicall,#internall,#markss,#min_markss,#maximum_markss,#blue,#theory,#Practical,#internal,#marks,#min_marks,#maximum_marks{
+    width: 100px;
+    padding: 10px;
+ } */
+ #blue,#intro,#comm,#prac{
+    color:#284775;
+ }
+ /* #theory,th,#Practical,#internal,#marks,#min_marks,#maximum_marks{
+    width: 100px;
+    padding: 10px;
+ } */
+ #NOTE{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+}
+#NOTEE{
+    font-weight: bold;
+    text-align: left;
+}
+#NOTE,#NOTEE{
+    margin-left: 530px;
+}
+#last_part{
+    text-align: left;
+    margin-left: 530px;
+}
+@media only screen and (max-width: 400px) and (min-width: 300px){
+    p{
+        /* width: 50%; */
+        /* text-align: left; */
+        /* margin-right: 200px; */
+        font-size: 15px;
+        /* margin-right: ; */
+    }
+    #NOTE,#NOTEE,#last_part{
+        text-align: left;
+        margin-left: 53px;
+    }
+}
